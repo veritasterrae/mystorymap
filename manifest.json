@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "title": "Wetland2",
+  "layers": [
+    {
+      "type": "raster",
+      "renderMode": "tiles",
+      "order": 0,
+      "id": "ndvi",
+      "name": "NDVI",
+      "bbox": [
+        -80.2902421023026,
+        43.565862361658425,
+        -80.2849883563142,
+        43.56989020063834
+      ],
+      "opacity": 1.0,
+      "queryable": false,
+      "tilesUrl": "tiles/ndvi/{z}/{x}/{y}.png",
+      "minZoom": 0,
+      "maxZoom": 10,
+      "tileSize": 256,
+      "tileCount": 11
+    },
+    {
+      "type": "raster",
+      "renderMode": "tiles",
+      "order": 1,
+      "id": "ndre",
+      "name": "NDRE",
+      "bbox": [
+        -80.2902421023026,
+        43.565862361658425,
+        -80.2849883563142,
+        43.56989020063834
+      ],
+      "opacity": 1.0,
+      "queryable": false,
+      "tilesUrl": "tiles/ndre/{z}/{x}/{y}.png",
+      "minZoom": 0,
+      "maxZoom": 10,
+      "tileSize": 256,
+      "tileCount": 11
+    },
+    {
+      "type": "raster",
+      "renderMode": "tiles",
+      "order": 2,
+      "id": "rgb-drone-map-09042026",
+      "name": "RGB Drone Map 09042026",
+      "bbox": [
+        -80.29024264228154,
+        43.565862311592866,
+        -80.28498810079223,
+        43.56989047920511
+      ],
+      "opacity": 1.0,
+      "queryable": false,
+      "tilesUrl": "tiles/rgb-drone-map-09042026/{z}/{x}/{y}.png",
+      "minZoom": 0,
+      "maxZoom": 10,
+      "tileSize": 256,
+      "tileCount": 11
+    },
+    {
+      "type": "raster",
+      "renderMode": "tiles",
+      "order": 3,
+      "id": "hillshade",
+      "name": "Hillshade",
+      "bbox": [
+        -80.29024264228154,
+        43.565862311592866,
+        -80.28498810079223,
+        43.56989047920511
+      ],
+      "opacity": 1.0,
+      "queryable": false,
+      "tilesUrl": "tiles/hillshade/{z}/{x}/{y}.png",
+      "minZoom": 0,
+      "maxZoom": 10,
+      "tileSize": 256,
+      "tileCount": 11
+    },
+    {
+      "type": "vector",
+      "renderMode": "tiles",
+      "order": 4,
+      "id": "halo",
+      "name": "Halo",
+      "bbox": [
+        -80.28787657084733,
+        43.56799648891112,
+        -80.28685028794737,
+        43.568732115682
+      ],
+      "opacity": 1.0,
+      "tilesUrl": "tiles/halo/{z}/{x}/{y}.png",
+      "minZoom": 0,
+      "maxZoom": 10,
+      "tileSize": 256,
+      "tileCount": 11
+    },
+    {
+      "type": "vector",
+      "renderMode": "tiles",
+      "order": 5,
+      "id": "dense-phragmites-stand",
+      "name": "Dense Phragmites Stand",
+      "bbox": [
+        -80.2878093258911,
+        43.56805546538553,
+        -80.28692356650348,
+        43.568686683605335
+      ],
+      "opacity": 1.0,
+      "tilesUrl": "tiles/dense-phragmites-stand/{z}/{x}/{y}.png",
+      "minZoom": 0,
+      "maxZoom": 10,
+      "tileSize": 256,
+      "tileCount": 11
+    }
+  ],
+  "story": "story.json",
+  "legend": "legend.json"
+}

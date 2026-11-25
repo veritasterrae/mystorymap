@@ -1,0 +1,40 @@
+{
+  "layers": [
+    {
+      "id": "ndvi",
+      "name": "NDVI",
+      "type": "raster",
+      "sld": "sld/ndvi.sld"
+    },
+    {
+      "id": "ndre",
+      "name": "NDRE",
+      "type": "raster",
+      "sld": "sld/ndre.sld"
+    },
+    {
+      "id": "rgb-drone-map-09042026",
+      "name": "RGB Drone Map 09042026",
+      "type": "raster",
+      "sld": "sld/rgb-drone-map-09042026.sld"
+    },
+    {
+      "id": "hillshade",
+      "name": "Hillshade",
+      "type": "raster",
+      "sld": "sld/hillshade.sld"
+    },
+    {
+      "id": "halo",
+      "name": "Halo",
+      "type": "vector",
+      "sld": "sld/halo.sld"
+    },
+    {
+      "id": "dense-phragmites-stand",
+      "name": "Dense Phragmites Stand",
+      "type": "vector",
+      "sld": "sld/dense-phragmites-stand.sld"
+    }
+  ]
+}
